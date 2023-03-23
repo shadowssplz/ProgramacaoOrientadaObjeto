@@ -1,0 +1,28 @@
+-----------------------------------
+|          Funcionario            |
+-----------------------------------
+| - nome: String                  |
+| - salario: double               |
+| - dataAdmissao: Date            |
+| - cargo: String                 |
+| - departamento: String          |
+-----------------------------------
+| + Funcionario(nome: String,     |
+|   salario: double,              |
+|   dataAdmissao: Date,           |
+|   cargo: String,                |
+|   departamento: String)         |
+| + getNome(): String             |
+| + setNome(nome: String): void   |
+| + getSalario(): double          |
+| + setSalario(salario: double):  |
+|   void                          |
+| + getDataAdmissao(): Date       |
+| + setDataAdmissao(dataAdmissao:  |
+|   Date): void                   |
+| + getCargo(): String            |
+| + setCargo(cargo: String): void |
+| + getDepartamento(): String     |
+| + setDepartamento(departamento: |
+|   String): void                 |
+-----------------------------------
