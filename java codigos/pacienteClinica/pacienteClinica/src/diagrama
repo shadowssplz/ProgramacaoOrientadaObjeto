@@ -1,0 +1,37 @@
+-----------------------------------
+|           Paciente              |
+-----------------------------------
+| - nome: String                  |
+| - idade: int                    |
+| - sexo: String                  |
+| - altura: double                |
+| - peso: double                  |
+| - historicoMedico: String       |
+| - medicamentos: String          |
+-----------------------------------
+| + Paciente(nome: String,        |
+|   idade: int,                   |
+|   sexo: String,                 |
+|   altura: double,               |
+|   peso: double,                 |
+|   historicoMedico: String,      |
+|   medicamentos: String)         |
+| + getNome(): String             |
+| + setNome(nome: String): void   |
+| + getIdade(): int               |
+| + setIdade(idade: int): void    |
+| + getSexo(): String             |
+| + setSexo(sexo: String): void   |
+| + getAltura(): double           |
+| + setAltura(altura: double):    |
+|   void                          |
+| + getPeso(): double             |
+| + setPeso(peso: double): void   |
+| + getHistoricoMedico(): String  |
+| + setHistoricoMedico(historico: |
+|   String): void                 |
+| + getMedicamentos(): String     |
+| + setMedicamentos(medicamentos: |
+|   String): void                 |
+-----------------------------------
+
