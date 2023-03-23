@@ -1,0 +1,13 @@
+-----------------------------------
+|        DataEspecial             |
+-----------------------------------
+| - nome: String                  |
+| - data: String                  |
+-----------------------------------
+| + DataEspecial(nome: String,    |
+|   data: String)                 |
+| + getNome(): String             |
+| + setNome(nome: String): void   |
+| + getData(): String             |
+| + setData(data: String): void   |
+-----------------------------------
