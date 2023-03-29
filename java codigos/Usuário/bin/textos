@@ -1,0 +1,7 @@
+Existem alguns problemas no código fornecido, tais como:
+
+Os métodos getName(), getLog() e getPass() deveriam retornar um valor, mas estão declarados como void, então eles precisam ser alterados para retornar o tipo de dado apropriado.
+As variáveis n, l e p não foram declaradas em nenhum lugar, portanto, precisam ser declaradas como variáveis locais dentro dos métodos correspondentes.
+O método setName() está correto, mas não está sendo utilizado em nenhum lugar, então você deve chamá-lo na sua função principal.
+O loop for em setLog() está verificando se o índice é maior ou igual ao comprimento da string, o que nunca é verdadeiro, portanto, o loop nunca é executado. Você deve trocar o sinal de maior ou igual por menor que (<).
+O loop do-while em setLog() e setPass() nunca termina caso o usuário não insira um valor válido. Você deve considerar adicionar uma condição de saída que permita que o usuário cancele a entrada se ele quiser
